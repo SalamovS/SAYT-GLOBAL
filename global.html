@@ -6,7 +6,7 @@
   <title>Global Green</title>
   <link rel="stylesheet" href="gloibal.css">
   <style>
-    /* Видео-фон */
+
     #bg-video {
       position: fixed;
       top: 0;
@@ -42,7 +42,7 @@
     header, footer, section {
       position: relative;
       z-index: 1;
-      background-color: rgba(0, 0, 0, 0.6); /* Прозрачный фон, чтобы текст был читаем */
+      background-color: rgba(0, 0, 0, 0.6);
       padding: 20px;
       border-radius: 10px;
       margin: 20px;
@@ -54,7 +54,7 @@
       margin-right: 15px;
       font-weight: bold;
       padding: 10px 15px;
-      transition: font-size 0.3s ease, background-color 0.3s ease; /* Добавление анимации для фона и размера шрифта */
+      transition: font-size 0.3s ease, background-color 0.3s ease;
       border-radius: 5px;
     }
 
@@ -63,14 +63,13 @@
     }
 
     nav a:hover {
-      font-size: 1.3em; /* Увеличиваем размер шрифта */
-      background-color: white; /* Белый фон при наведении */
-      color: #004400; /* Изменение цвета текста на тёмно-зелёный */
+      font-size: 1.3em; 
+      background-color: white;
+      color: #004400; 
     }
   </style>
 </head>
 <body>
-  <!-- Видеофон -->
   <video autoplay muted loop playsinline id="bg-video">
     <source src="595838_Drone Landscape_Nature_3840x2160.mp4" type="video/mp4">
     Ваш браузер не поддерживает видео.
@@ -83,7 +82,6 @@
       <a href="about.html">О КОМПАНИИ</a>
       <a href="magazin.html">МАГАЗИН</a>
       <a href="contacts.html">КОНТАКТЫ</a>
-      <!-- Добавляем новую кнопку -->
       <a href="voda.html" class="pollution-link">ЗАГРЯЗНЕНИЕ ВОДЫ</a>
     </nav>
   </header>
@@ -101,8 +99,6 @@
         style="border-radius: 13px;">
       </iframe>
     </div>
-
-    <!-- Правая колонка: рейтинг -->
     <div class="realtime-block" style="max-width: 45%;">
       <div style="background-color: #009900; color: white; padding: 10px 15px; border-radius: 13px; text-align: center; margin-bottom: 15px;">
         Рейтинг городов с самым грязным воздухом
